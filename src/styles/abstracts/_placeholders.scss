@@ -1,0 +1,54 @@
+%transition {
+  transition: all .2s ease-in-out;
+}
+
+@font-face {
+  font-family: 'Proxima Nova', sans-serif;
+  src: url(/src/test_task_resources/static/font/ProximaNova-Light.eot);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Light.otf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Light.ttf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Light.woff);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Light.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Proxima Nova', sans-serif;
+  src: url(/src/test_task_resources/static/font/ProximaNova-Regular.eot);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Regular.otf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Regular.ttf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Regular.woff);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Proxima Nova', sans-serif;
+  src: url(/src/test_task_resources/static/font/ProximaNova-Semibold.eot);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Semibold.otf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Semibold.ttf);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Semibold.woff);
+  src: url(/src/test_task_resources/static/font/ProximaNova-Semibold.woff2);
+  font-weight: 600;
+}
+
+
+
+%font-light {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+%font-regular {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+%font-semibold {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
