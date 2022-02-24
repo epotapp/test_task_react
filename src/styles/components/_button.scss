@@ -1,0 +1,57 @@
+.buttons {
+  margin-left: auto;
+  margin-right: 80px;
+  display: flex;
+
+  @include media-mobile {
+    margin: 0 auto 16px 16px;
+   }
+
+  &_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; 
+    height: 48px;
+    border-radius: 24px; 
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  &_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; 
+    height: 48px;
+    border-radius: 24px; 
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  width: 8.5px;
+  height: 8.5px;
+  border-bottom: 1px solid $color-secondary-light;
+  border-right: 1px solid $color-secondary-light;
+  opacity: 100%;
+
+  &_right {
+    right: 2px;
+    transform: rotate(-45deg);
+  }
+  
+  &_left {
+    left: 2px;
+    transform: rotate(135deg);
+  }
+
+}
